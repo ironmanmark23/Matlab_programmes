@@ -1,0 +1,15 @@
+x=0:pi/10:2*pi;
+a = sin(x);
+subplot(1,2,1);
+stem(x,a);
+xlabel('the function');
+ylabel('the value of y');
+title('the sine graph');
+grid on;
+b= cos(x);
+subplot(1,2,2);
+stem(x,b);
+xlabel('the function');
+ylabel('the value of y');
+title('the cosine graph');
+grid on;
